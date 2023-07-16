@@ -1,0 +1,80 @@
+.tarjetaPadre{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    width: 200px;
+    height: 200px;    
+    color: #fff;
+    background-color: #000;
+    margin: 20px;
+
+    display: flex;            
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+label{
+    font-size: 20px;
+    padding: 10px;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    padding: 2px;
+    text-align: center;
+}
+
+.tituloJuegoUno{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.subtitulo{
+    font-size: 25px;
+    margin: 20px 10px;
+}
+
+.btnIniciar{
+    background-color: #0000FF;
+    color: white;
+    font-size: 18px;
+    height: 35px;
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.btnIniciar:hover{
+    background-color: #0000CC;
+    width: 150px;
+    height: 40px;
+}
+
+.btnRegresar{
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 18px;
+    height: 35px;
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.btnRegresar:hover{
+    background-color: rgb(255, 0, 100);
+    width: 150px;
+    height: 40px;
+}
